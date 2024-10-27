@@ -1,24 +1,17 @@
-print("Welcome to the Python Calculator!")
-print("Choose an operation:")
-print("1. Addition")
-print("2. Subtraction")
+def addition(a, b):
+    return a+b
 
-choice_1 = input("Enter your number: ")
-choice_2 = input("Enter your number: ")
-def addition(x,y):
-    return x+y
+def subtraction(a, b):
+    return a-b
 
-def substraction(x,y):
-    return x-y
+# Test the functions
+num1 = float(input("Enter your number: "))
+num2 = float(input("Enter your number: "))
 
-if choice_1 == '' and choice_2 == '':
-    print("Invalid input. Please select 1 or 2.")
-else:
-    # Get numbers from the user
-    num1 = float(input("Enter first number: "))
-    num2 = float(input("Enter second number: "))
-    sum = addition(x=num1,y=num2)
-    difference = substraction(x=num1,y=num2)
+# Multiplication
+result_addition = addition(num1, num2)
+print(f"Multiplication of {num1} and {num2} is: {result_addition}")
 
-    print(f"sum of {choice_1} and {choice_2} = {sum}")
-    print(f"difference of {choice_1} and {choice_2} = {difference}")
+# Division
+result_subtraction = subtraction(num1, num2)
+print(f"Division of {num1} by {num2} is: {result_subtraction}")
