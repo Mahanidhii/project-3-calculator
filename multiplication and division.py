@@ -10,7 +10,6 @@ def divide(a, b):
 num1 = float(input("Enter your number: "))
 num2 = float(input("Enter your number: "))
 
-
 # Multiplication
 result_multiply = multiply(num1, num2)
 print(f"Multiplication of {num1} and {num2} is: {result_multiply}")
