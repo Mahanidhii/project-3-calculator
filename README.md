@@ -14,3 +14,6 @@
 2. One person wrote the python code for addition and subtraction
 3. the other wrote the python code for multiplication and divison
 4. The codes were successfully combined and executed
+
+### Output:
+![Screenshot 2024-10-27 124149](https://github.com/user-attachments/assets/59f227b4-2ab5-49b2-bfc8-ea06e6cb2d0d)
