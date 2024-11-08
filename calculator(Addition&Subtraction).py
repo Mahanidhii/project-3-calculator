@@ -4,7 +4,7 @@ def addition(a, b):
 def subtraction(a, b):
     return a-b
 
-# Test the functions
+# Testing the functions
 num1 = float(input("Enter your number: "))
 num2 = float(input("Enter your number: "))
 
