@@ -1,7 +1,7 @@
 # Calculator
 
 ### Description 
-A simple calculator code in python that performs addition, subtraction, multiplication and division on the given numbers.
+A simple calculator program in python that performs addition, subtraction, multiplication and division on the given numbers.
 
 ### Git commands used:
 1. `mkdir <file_name>` to create the folder
